@@ -104,7 +104,7 @@ def dice():
         l5.place(x=210, y=238)
         l6 = Label(box, text='*', font='calibiri 50 bold', bg='white')
         l6.place(x=210, y=346)
-    box = Text(root,height = 50, width = 50)
+    box = Text(root,height = 30, width = 50)
     a = random.randint(1,6)
     if(a == 1):
         one()
